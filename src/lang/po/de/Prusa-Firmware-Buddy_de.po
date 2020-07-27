@@ -14,7 +14,7 @@ msgstr "Bootloader Version %d.%d.%d\nBuddy Board %d.%d.%d %s"
 
 #: src/guiapi/src/MItem_tools.cpp:121
 msgid "A crash dump report (file dump.bin) has been saved to the USB drive."
-msgstr "Ein Crash-Dump-Bericht (Datei dump.bin) wurde auf dem USB-Laufwerk gespeichert."
+msgstr "Ein Crash-Dump-Bericht (Datei dump.bin) wurde auf dem USB-Sick gespeichert."
 
 #. MSGBOX_RES_CANCEL    2
 #: src/guiapi/src/window_msgbox.cpp:50
@@ -110,14 +110,14 @@ msgstr "Prüfe Achsen"
 
 #: src/gui/wizard/selftest_temp.cpp:37
 msgid "Checking hotend and\nheatbed heaters"
-msgstr "Prüfe Hotend und\nHeizbettheizungen"
+msgstr "Prüfe Hotend- und\nHeizbettheizungen"
 
 #: src/gui/wizard/screen_wizard.c:462
 msgid "Clean steel sheet."
 msgstr "Stahlblech reinigen."
 
 #: src/gui/wizard/screen_wizard.c:362
-msgid "Congratulations! XYZ calibration is ok. XY axes are perpendicular."
+msgid "Congratulations! XYZ calibration is ok. XY axes are perpendicular." 
 msgstr "Glückwunsch! Die XYZ-Kalibrierung ist in Ordnung. XY-Achsen sind senkrecht."
 
 #: src/guiapi/src/MItem_tools.cpp:273
@@ -177,7 +177,7 @@ msgstr "Fehler"
 
 #: src/guiapi/src/MItem_tools.cpp:123
 msgid "Error saving crash dump report to the USB drive. Please reinsert the USB drive and try again."
-msgstr "Fehler beim Speichern des Crash-Dump-Berichts auf das USB-Laufwerk. Bitte stecken Sie das USB-Laufwerk wieder ein und versuchen Sie es erneut."
+msgstr "Fehler beim Speichern des Crash-Dump-Berichts auf das USB-Stick. Bitte stecken Sie das USB-Stick wieder ein und versuchen Sie es erneut."
 
 #: src/gui/wizard/screen_wizard.c:266
 msgid "Everything is alright. I will run XYZ calibration now. It will take approximately 12 minutes."
@@ -206,7 +206,7 @@ msgstr "Lüftertest"
 
 #: src/gui/screen_menu_settings.cpp:24
 msgid "Fil. sens."
-msgstr "Fil.-Sens."
+msgstr "Fil. Sens."
 
 #: src/gui/screen_menu_filament.cpp:123 src/gui/screen_menu_filament.cpp:120
 msgid "FILAMENT"
@@ -218,7 +218,7 @@ msgstr "Filament"
 
 #: src/gui/screen_print_preview.cpp:320
 msgid "Filament not detected. Load filament now? Select NO to cancel, or IGNORE to disable the filament sensor and continue."
-msgstr "Filament nicht erkannt. Filament jetzt laden? Wählen Sie NEIN, um abzubrechen, oder IGNORIEREN, um den Filament-Sensor zu deaktivieren und fortzufahren."
+msgstr "Filament nicht erkannt. Filament jetzt laden? Wählen Sie NEIN, um abzubrechen, oder IGNORIEREN, um den Filamentsensor zu deaktivieren und fortzufahren."
 
 #: src/gui/dialogs/DialogLoadUnload.cpp:44
 msgid "Finishing         \nbuffered gcodes.  \n"
@@ -318,11 +318,11 @@ msgstr "Führe ein"
 #: src/gui/screen_menu_lan_settings.cpp:305
 #: src/gui/screen_menu_lan_settings.cpp:306
 msgid "IP addresses are not valid or the file \"lan_settings.ini\" is not in the root directory of the USB drive."
-msgstr "IP-Adressen sind nicht gültig oder die Datei \"lan_settings.ini\" befindet sich nicht im Stammverzeichnis des USB-Laufwerks."
+msgstr "IP-Adressen sind nicht gültig oder die Datei \"lan_settings.ini\" befindet sich nicht im Stammverzeichnis des USB-Sticks."
 
 #: src/gui/screen_menu_lan_settings.cpp:301
 msgid "IP addresses or parameters are not valid or the file \"lan_settings.ini\" is not in the root directory of the USB drive."
-msgstr "IP-Adressen oder Parameter sind nicht gültig oder die Datei \"lan_settings.ini\" befindet sich nicht im Stammverzeichnis des USB-Laufwerks."
+msgstr "IP-Adressen oder Parameter sind nicht gültig oder die Datei \"lan_settings.ini\" befindet sich nicht im Stammverzeichnis des USB-Sticks."
 
 #: src/gui/dialogs/DialogLoadUnload.cpp:58
 msgid "Is color correct?"
@@ -511,7 +511,7 @@ msgstr "Einmal"
 
 #: src/gui/wizard/firstlay.c:55 src/gui/wizard/firstlay.c:63
 msgid "Once the printer   \nstarts extruding   \nplastic, adjust    \nthe nozzle height  \nby turning the knob\nuntil the filament \nsticks to the print\nsheet."
-msgstr "Sobald der Drucker\nbeginnt, Kunststoff\nzu extrudieren,\nstellen Sie die Höhe\nder Düse durch Knopf\nDrehen ein, bis der\nFaden am Druckblech\nhaftet."
+msgstr "Sobald der Drucker\nbeginnt, Kunststoff\nzu extrudieren,\nstellen Sie die Höhe\nder Düse durch Knopf\nDrehen ein, bis der\nFaden am Stahlblech\nhaftet."
 
 #: src/gui/dialogs/DialogLoadUnload.cpp:45
 msgid "Parking"
@@ -541,7 +541,7 @@ msgstr "Bitte reinigen Sie die Düse zur Kalibrierung. Klicken Sie auf WEITER, w
 #: src/gui/screen_menu_lan_settings.cpp:294
 #: src/gui/screen_menu_lan_settings.cpp:289
 msgid "Please insert a USB drive and try again."
-msgstr "Bitte schließen Sie ein USB-Laufwerk an und versuchen Sie es erneut."
+msgstr "Bitte schließen Sie ein USB-Stick an und versuchen Sie es erneut."
 
 #: src/gui/guimain.c:190
 msgid "Please insert the USB\ndrive that came with\nyour MINI and reset\nthe printer to flash\nthe firmware"
@@ -701,8 +701,8 @@ msgid "Select filament type"
 msgstr "Filamenttyp wählen"
 
 #: src/gui/screen_menu_fw_update.cpp:57
-msgid "Select when you want\nto automatically flash\nupdated firmware\nfrom USB flash disk."
-msgstr "Aktivieren, wenn Sie\nautomatisch aktua-\nlisierte Firmware\nvon einem USB-STICK\nflashen möchten."
+msgid "Select when you want\nto automatically flash\nupdated firmware\nfrom USB drive."
+msgstr "Aktivieren, wenn Sie\nautomatisch aktua-\nlisierte Firmware\nvon einem USB-Stick\nflashen möchten."
 
 #: src/guiapi/include/MItem_tools.hpp:38
 msgid "SelfTest"
@@ -762,11 +762,11 @@ msgstr "Statistik"
 
 #: src/gui/dialogs/DialogLoadUnload.cpp:28
 msgid "STOP"
-msgstr "STOPP"
+msgstr "STOP"
 
 #: src/gui/screen_printing.cpp:77
 msgid "Stop"
-msgstr "Stopp"
+msgstr "Stop"
 
 #: src/guiapi/include/MItem_menus.hpp:58
 msgid "Support"
@@ -875,11 +875,11 @@ msgstr "Entparke"
 
 #: src/usbh_diskio.c:148 src/usbh_diskio.c:192
 msgid "USB Disk is not ready!"
-msgstr "USB-Laufwerk nicht bereit!"
+msgstr "USB-Stick nicht bereit!"
 
 #: src/usbh_diskio.c:185
 msgid "USB Disk is Write protected!"
-msgstr "USB-Laufwerk schreibgeschützt!"
+msgstr "USB-Stick schreibgeschützt!"
 
 #: src/gui/screen_print_preview.cpp:162
 msgid "Used Filament"
