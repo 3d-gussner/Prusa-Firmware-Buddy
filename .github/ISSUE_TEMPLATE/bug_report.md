@@ -9,7 +9,18 @@ assignees: ''
 
 Please, before you create a new bug report, please make sure you searched in open and closed issues and couldn't find anything that matches.
 
-**Printer type** - [MINI, MK4, XL]
+body:
+- type: dropdown
+  id: printer_type
+  attributes: Printer type
+  options:
+    - MINI
+    - MK4
+    - XL
+    - MK3.5
+    - MK3.9
+  validations:
+    required: true
 
 **Printer firmware version** - [e.g. 4.0.5, ...]
 
