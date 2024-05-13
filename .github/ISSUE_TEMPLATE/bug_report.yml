@@ -4,28 +4,31 @@ title: "[BUG] <Enter comprehensive title>"
 labels: ["bug"]
 body:
   - type: dropdown
-    id: printer_type
-    attributes: Printer type
-    options:
-      - MINI
-      - MK4
-      - XL
-      - MK3.5
-      - MK3.9
+    attributes:
+      label: Printer type
+      options:
+        - MINI
+        - MK4
+        - XL
+        - MK3.5
+        - MK3.9
     validations:
       required: true
   - type: textarea
-    attributes: >-
-      Printer firmware version - [e.g. 4.0.5, ...]
-    placeholder: |
-      ...
+    attributes:
+      label: Firmware version
+      description: >-
+        Printer firmware version - [e.g. 4.0.5, ...]
+        placeholder: |
+          ...
     validations:
       required: true
   - type: dropdown
-    attributes: Firmware
-    options:
-      - Original
-      - Custom
+    attributes:
+      label: Firmware
+      options:
+        - Original
+        - Custom
     validations:
       required: true
   - type: markdown
