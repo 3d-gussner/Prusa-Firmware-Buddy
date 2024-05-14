@@ -32,7 +32,6 @@ body:
         - Custom
     validations:
       required: true
-  body:
   - type: checkboxes
     attributes:
       label: Optional upgrades
