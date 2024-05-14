@@ -38,7 +38,7 @@ body:
       description: Please select which optional upgrades do you have.
       options:
         if: printer_type == 'MINI'
-          label: Filament sensor
+        label: Filament sensor
         label: Enclosure
   - type: markdown
     attributes:
