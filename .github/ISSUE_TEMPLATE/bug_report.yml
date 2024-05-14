@@ -4,9 +4,9 @@ title: "[BUG] <Enter comprehensive title>"
 labels: ["bug"]
 body:
   - type: dropdown
+    id: printer_type
     attributes:
       label: Printer type
-      id: printer_type
       options:
         - MINI
         - MK4
