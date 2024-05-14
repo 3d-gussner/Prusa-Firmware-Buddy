@@ -37,8 +37,8 @@ body:
       label: Optional upgrades
       description: Please select which optional upgrades do you have.
       options:
-        label: Filament sensor
-        label: Enclosure
+        - label: Filament sensor
+        - label: Enclosure
   - type: markdown
     attributes:
       value: >-
